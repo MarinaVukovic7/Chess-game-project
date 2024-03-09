@@ -34,9 +34,6 @@ This project aims to create an online chess game with standard chess rules, allo
 4. **Access the Game:**
    Open your web browser and navigate to `http://localhost:3000` to start playing chess.
 
-## Contributing
-
-If you'd like to contribute to this project, please follow the [CONTRIBUTING.md](CONTRIBUTING.md) guidelines.
 
 ## License
 
