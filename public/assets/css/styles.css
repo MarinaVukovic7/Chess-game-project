@@ -1,0 +1,55 @@
+#chessBoard {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid rgb(95, 64, 64);
+}
+
+.none {
+  display: none;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.gameOverDiv,.waitingDiv {
+  position: absolute;
+  top: 30%;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 30%;
+  height: 40%;
+  z-index: 100;
+  background-color: #eeeed2;
+  border-radius: 2%;
+  text-align: center;
+  padding-top: 5%;
+  font: 1.5rem Arial;
+}
+
+.gameOverImg, .waitingImg {
+  display: block;
+  margin-left: 50%;
+  margin-top: 30px;
+  transform: translate(-50%);
+  width: 40%;
+  height: 40%;
+}
+
+.resetGameButton {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: rgba(0, 0, 0, .5);
+  color: #eeeed2;
+  padding: 10px 15px;
+}
